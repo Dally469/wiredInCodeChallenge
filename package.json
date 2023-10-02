@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "nuxt": "^3.7.3"
+  },
+  "dependencies": {
+    "@vueuse/motion": "^2.0.0",
+    "volar-service-vetur": "^0.0.13",
+    "vue-router": "^4.2.5"
+  }
+}
